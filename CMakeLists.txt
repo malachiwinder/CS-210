@@ -3,4 +3,7 @@ project(CS_240)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CS_240 Test/main.cpp)
+add_executable(p2
+        p2.cpp
+        loadbalancer.cpp
+)
