@@ -25,7 +25,7 @@ class loadbalancer
       //queue<request> requestQueue;
       //priority_queue<request, vector<request>, MaxProcessTime> requestQueue;
       //priority_queue<request, vector<request>, MinProcessTime> requestQueue;
-      priority_queue<request, vector<request>, MaxPID> requestQueue;
+      //priority_queue<request, vector<request>, MaxPID> requestQueue;
       //stack<request> requestQueue;
 };
 
